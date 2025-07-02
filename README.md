@@ -1,12 +1,17 @@
 ## 🔐 Password Strength Classifier
 
-It is a simple machine learning model that classifies a password into any of these categories: *Weak*, *Medium* and lastly *Strong*
-It classifies password into weak by analysing if the password contains 4 to 6 characters including lowercase and digits
-Classifies a password as Medium by analysing if it contains 6 - 10 characters including lowercase, uppercase and digits like 1,2,3,4
-Lastly it classifies the password as Strong if it contains 10 - 16 characters including lowercase, uppercase, digits and special symbols like &,*,@ 
+It is a simple machine learning model that classifies a passwords as either **Weak**, **Medium**, or **Strong**, based on character patterns and length.
 
 ---
 
+## 🔍 Classification Criteria
+
+- **Weak**: 4–6 characters with lowercase letters and digits  
+- **Medium**: 6–10 characters including lowercase, uppercase, and digits  
+- **Strong**: 10–16 characters with lowercase, uppercase, digits, and special symbols like `@`, `&`, `*`
+
+  ---
+  
 ## Additional Info (^.^)
 
 I created my own set of passwords due to lack of availability of password dataset online...
